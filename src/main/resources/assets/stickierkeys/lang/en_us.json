@@ -1,0 +1,9 @@
+{
+	"key.category.stickierkeys": "StickierKeys",
+	"key.stickierkeys.toggle": "Toggle Enabled",
+	"key.stickierkeys.toggle_sprint": "Toggle Auto-sprint",
+	"stickierkeys.mode.disabled": "Off",
+	"stickierkeys.mode.enabled": "On",
+	"stickierkeys.mode.enabled_sprint": "On (Auto-sprinting)",
+	"stickierkeys.message.toggle": "StickierKeys: %s"
+}

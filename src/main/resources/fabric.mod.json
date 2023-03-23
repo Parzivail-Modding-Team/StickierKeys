@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "stickierkeys",
+	"version": "${version}",
+	"name": "Stickier Keys",
+	"description": "Automated walking and running",
+	"authors": [
+		"parzivail"
+	],
+	"contact": {
+		"homepage": "https://github.com/Parzivail-Modding-Team/stickierkeys",
+		"sources": "https://github.com/Parzivail-Modding-Team/stickierkeys"
+	},
+	"license": "MIT",
+	"icon": "assets/stickierkeys/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.parzivail.stickier.StickierKeys"
+		]
+	},
+	"mixins": [
+		"stickierkeys.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.17",
+		"fabric-api": "*",
+		"minecraft": "~1.19.0",
+		"java": ">=17"
+	}
+}
